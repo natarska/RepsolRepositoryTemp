@@ -1,0 +1,572 @@
+[1544448887.348][INFO]: [48104509defd970e2a213b44a34e8007] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "user-data-dir=C:\\Users\\NDiaz\\AppData\\Local\\Google\\Chrome\\User Data", "user-data-dir=C:\\Users\\NDiaz\\AppData\\Local\\Google\\Chrome\\User Data" ],
+            "extensions": [  ]
+         },
+         "platformName": "any"
+      },
+      "firstMatch": [ {
+
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "chromeOptions": {
+         "args": [ "--enable-gpu-benchmarking", "--enable-thread-composting" ],
+         "perfLoggingPrefs": {
+            "traceCategories": "toplevel,disabled-by-default-devtools.timeline.frame,blink.console,disabled-by-default-devtools.timeline,benchmark"
+         }
+      },
+      "goog:chromeOptions": {
+         "args": [ "user-data-dir=C:\\Users\\NDiaz\\AppData\\Local\\Google\\Chrome\\User Data", "user-data-dir=C:\\Users\\NDiaz\\AppData\\Local\\Google\\Chrome\\User Data" ],
+         "extensions": [  ]
+      },
+      "loggingPrefs": {
+         "performance": "ALL"
+      },
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[1544448887.349][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1544448887.358][INFO]: Populating Local State file: {
+   "browser": {
+      "last_redirect_origin": ""
+   },
+   "hardware_acceleration_mode_previous": true,
+   "intl": {
+      "app_locale": "en"
+   },
+   "network_time": {
+      "network_time_mapping": {
+         "local": 1544444083269.144,
+         "network": 1544444084000.0,
+         "ticks": 57617468505.0,
+         "uncertainty": 2493811.0
+      }
+   },
+   "password_manager": {
+      "os_password_blank": false,
+      "os_password_last_changed": "0"
+   },
+   "plugins": {
+      "metadata": {
+         "adobe-flash-player": {
+            "displayurl": true,
+            "group_name_matcher": "*Shockwave Flash*",
+            "help_url": "https://support.google.com/chrome/?p=plugin_flash",
+            "lang": "en-US",
+            "mime_types": [ "application/futuresplash", "application/x-shockwave-flash" ],
+            "name": "Adobe Flash Player",
+            "url": "https://support.google.com/chrome/answer/6258784",
+            "versions": [ {
+               "reference": "https://helpx.adobe.com/security/products/flash-player/apsb17-32.html",
+               "status": "requires_authorization",
+               "version": "27.0.0.170"
+            } ]
+         },
+         "adobe-reader": {
+            "displayurl": true,
+            "group_name_matcher": "*Adobe Acrobat*",
+            "help_url": "https://support.google.com/chrome/?p=plugin_pdf",
+            "lang": "en-US",
+            "mime_types": [ "application/pdf", "application/vnd.adobe.x-mars", "application/vnd.adobe.xdp+xml", "application/vnd.adobe.xfd+xml", "application/vnd.adobe.xfdf", "application/vnd.fdf" ],
+            "name": "Adobe Reader",
+            "url": "https://get.adobe.com/reader/",
+            "versions": [ {
+               "reference": "https://helpx.adobe.com/security/products/reader/apsb14-28.html",
+               "status": "requires_authorization",
+               "version": "10.1.13"
+            }, {
+               "status": "out_of_date",
+               "version": "11"
+            }, {
+               "reference": "https://helpx.adobe.com/security/products/reader/apsb14-28.html",
+               "status": "requires_authorization",
+               "version": "11.0.10"
+            } ]
+         },
+         "adobe-shockwave": {
+            "group_name_matcher": "*Shockwave for Director*",
+            "help_url": "https://support.google.com/chrome/?p=plugin_shockwave",
+            "lang": "en-US",
+            "mime_types": [ "application/x-director" ],
+            "name": "Adobe Shockwave Player",
+            "url": "http://fpdownload.macromedia.com/get/shockwave/default/english/win95nt/latest/Shockwave_Installer_Slim.exe",
+            "versions": [ {
+               "reference": "https://helpx.adobe.com/security/products/shockwave/apsb14-10.html",
+               "status": "requires_authorization",
+               "version": "12.1.0.150"
+            } ]
+         },
+         "apple-quicktime": {
+            "group_name_matcher": "*QuickTime Plug-in*",
+            "help_url": "https://support.google.com/chrome/?p=plugin_quicktime",
+            "lang": "en-US",
+            "mime_types": [ "application/sdp", "application/x-mpeg", "application/x-rtsp", "application/x-sdp", "audio/3ggp", "audio/3ggp2", "audio/aac", "audio/ac3", "audio/aiff", "audio/amr", "audio/basic", "audio/mid", "audio/midi", "audio/mp4", "audio/mpeg", "audio/vnd.qcelp", "audio/wav", "audio/x-aac", "audio/x-ac3", "audio/x-aiff", "audio/x-caf", "audio/x-gsm", "audio/x-m4a", "audio/x-m4b", "audio/x-m4p", "audio/x-midi", "audio/x-mpeg", "audio/x-wav", "image/jp2", "image/jpeg2000", "image/jpeg2000-image", "image/pict", "image/png", "image/x-jpeg2000-image", "image/x-macpaint", "image/x-pict", "image/x-png", "image/x-quicktime", "image/x-sgi", "image/x-targa", "video/3ggp", "video/3ggp2", "video/flc", "video/mp4", "video/mpeg", "video/quicktime", "video/sd-video", "video/x-m4v", "video/x-mpeg" ],
+            "name": "QuickTime Player",
+            "url": "http://appldnld.apple.com/QuickTime/041-3089.20111026.Sxpr4/QuickTimeInstaller.exe",
+            "versions": [ {
+               "reference": "http://support.apple.com/kb/HT203092",
+               "status": "requires_authorization",
+               "version": "7.7.6"
+            } ]
+         },
+         "chromium-pdf": {
+            "group_name_matcher": "*Chromium PDF Viewer*",
+            "mime_types": [  ],
+            "name": "Chromium PDF Viewer",
+            "versions": [ {
+               "comment": "Chromium PDF Viewer has no version information.",
+               "status": "fully_trusted",
+               "version": "0"
+            } ]
+         },
+         "chromium-pdf-plugin": {
+            "group_name_matcher": "*Chromium PDF Plugin*",
+            "mime_types": [  ],
+            "name": "Chromium PDF Plugin",
+            "versions": [ {
+               "comment": "Chromium PDF Plugin has no version information.",
+               "status": "fully_trusted",
+               "version": "0"
+            } ]
+         },
+         "divx-player": {
+            "group_name_matcher": "*DivX Web Player*",
+            "help_url": "https://support.google.com/chrome/?p=plugin_divx",
+            "lang": "en-US",
+            "mime_types": [ "video/divx", "video/x-matroska" ],
+            "name": "DivX Web Player",
+            "url": "http://download.divx.com/player/divxdotcom/DivXWebPlayerInstaller.exe",
+            "versions": [ {
+               "status": "requires_authorization",
+               "version": "1.4.3.4"
+            } ]
+         },
+         "facebook-video-calling": {
+            "group_name_matcher": "*Facebook Video*",
+            "lang": "en-US",
+            "mime_types": [ "application/skypesdk-plugin" ],
+            "name": "Facebook Video Calling",
+            "url": "https://www.facebook.com/chat/video/videocalldownload.php",
+            "versions": [ {
+               "comment": "We do not track version information for the Facebook Video Calling Plugin.",
+               "status": "requires_authorization",
+               "version": "0"
+            } ]
+         },
+         "google-chrome-pdf": {
+            "group_name_matcher": "*Chrome PDF Viewer*",
+            "mime_types": [  ],
+            "name": "Chrome PDF Viewer",
+            "versions": [ {
+               "comment": "Google Chrome PDF Viewer has no version information.",
+               "status": "fully_trusted",
+               "version": "0"
+            } ]
+         },
+         "google-chrome-pdf-plugin": {
+            "group_name_matcher": "*Chrome PDF Plugin*",
+            "mime_types": [  ],
+            "name": "Chrome PDF Plugin",
+            "versions": [ {
+               "comment": "Google Chrome PDF Plugin has no version information.",
+               "status": "fully_trusted",
+               "version": "0"
+            } ]
+         },
+         "google-earth": {
+            "group_name_matcher": "*Google Earth*",
+            "lang": "en-US",
+            "mime_types": [ "application/geplugin" ],
+            "name": "Google Earth",
+            "url": "http://www.google.com/earth/explore/products/plugin.html",
+            "versions": [ {
+               "comment": "We do not track version information for the Google Earth Plugin.",
+               "status": "requires_authorization",
+               "version": "0"
+            } ]
+         },
+         "google-talk": {
+            "group_name_matcher": "*Google Talk*",
+            "mime_types": [  ],
+            "name": "Google Talk",
+            "versions": [ {
+               "comment": "'Google Talk Plugin' and 'Google Talk Plugin Video Accelerator' use two completely different versioning schemes, so we can't define a minimum version.",
+               "status": "requires_authorization",
+               "version": "0"
+            } ]
+         },
+         "google-update": {
+            "group_name_matcher": "Google Update",
+            "mime-types": [  ],
+            "name": "Google Update",
+            "versions": [ {
+               "comment": "Google Update plugin is versioned but kept automatically up to date",
+               "status": "requires_authorization",
+               "version": "0"
+            } ]
+         },
+         "ibm-java-runtime-environment": {
+            "group_name_matcher": "*IBM*Java*",
+            "mime_types": [ "application/x-java-applet", "application/x-java-applet;jpi-version=1.7.0_05", "application/x-java-applet;version=1.1", "application/x-java-applet;version=1.1.1", "application/x-java-applet;version=1.1.2", "application/x-java-applet;version=1.1.3", "application/x-java-applet;version=1.2", "application/x-java-applet;version=1.2.1", "application/x-java-applet;version=1.2.2", "application/x-java-applet;version=1.3", "application/x-java-applet;version=1.3.1", "application/x-java-applet;version=1.4", "application/x-java-applet;version=1.4.1", "application/x-java-applet;version=1.4.2", "application/x-java-applet;version=1.5", "application/x-java-applet;version=1.6", "application/x-java-applet;version=1.7", "application/x-java-bean", "application/x-java-bean;jpi-version=1.7.0_05", "application/x-java-bean;version=1.1", "application/x-java-bean;version=1.1.1", "application/x-java-bean;version=1.1.2", "application/x-java-bean;version=1.1.3", "application/x-java-bean;version=1.2", "application/x-java-bean;version=1.2.1", "application/x-java-bean;version=1.2.2", "application/x-java-bean;version=1.3", "application/x-java-bean;version=1.3.1", "application/x-java-bean;version=1.4", "application/x-java-bean;version=1.4.1", "application/x-java-bean;version=1.4.2", "application/x-java-bean;version=1.5", "application/x-java-bean;version=1.6", "application/x-java-bean;version=1.7", "application/x-java-vm", "application/x-java-vm-npruntime" ],
+            "name": "IBM Java",
+            "versions": [  ]
+         },
+         "java-runtime-environment": {
+            "displayurl": true,
+            "group_name_matcher": "Java*",
+            "help_url": "https://support.google.com/chrome/?p=plugin_java",
+            "lang": "en-US",
+            "mime_types": [ "application/x-java-applet", "application/x-java-applet;jpi-version=1.7.0_05", "application/x-java-applet;version=1.1", "application/x-java-applet;version=1.1.1", "application/x-java-applet;version=1.1.2", "application/x-java-applet;version=1.1.3", "application/x-java-applet;version=1.2", "application/x-java-applet;version=1.2.1", "application/x-java-applet;version=1.2.2", "application/x-java-applet;version=1.3", "application/x-java-applet;version=1.3.1", "application/x-java-applet;version=1.4", "application/x-java-applet;version=1.4.1", "application/x-java-applet;version=1.4.2", "application/x-java-applet;version=1.5", "application/x-java-applet;version=1.6", "application/x-java-applet;version=1.7", "application/x-java-bean", "application/x-java-bean;jpi-version=1.7.0_05", "application/x-java-bean;version=1.1", "application/x-java-bean;version=1.1.1", "application/x-java-bean;version=1.1.2", "application/x-java-bean;version=1.1.3", "application/x-java-bean;version=1.2", "application/x-java-bean;version=1.2.1", "application/x-java-bean;version=1.2.2", "application/x-java-bean;version=1.3", "application/x-java-bean;version=1.3.1", "application/x-java-bean;version=1.4", "application/x-java-bean;version=1.4.1", "application/x-java-bean;version=1.4.2", "application/x-java-bean;version=1.5", "application/x-java-bean;version=1.6", "application/x-java-bean;version=1.7", "application/x-java-vm", "application/x-java-vm-npruntime" ],
+            "name": "Java(TM)",
+            "url": "http://java.com/download",
+            "versions": [ {
+               "comment": "Java SE 7u45",
+               "status": "requires_authorization",
+               "version": "10.45"
+            } ]
+         },
+         "microsoft-office": {
+            "group_name_matcher": "*Microsoft Office*",
+            "mime_types": [  ],
+            "name": "Microsoft Office",
+            "versions": [ {
+               "comment": "Microsoft Office has no version information.",
+               "status": "requires_authorization",
+               "version": "0"
+            } ]
+         },
+         "nvidia-3d": {
+            "group_name_matcher": "*NVIDIA 3D*",
+            "mime_types": [  ],
+            "name": "NVIDIA 3D",
+            "versions": [ {
+               "comment": "NVidia 3D has no version information.",
+               "status": "requires_authorization",
+               "version": "0"
+            } ]
+         },
+         "realplayer": {
+            "group_name_matcher": "*RealPlayer*",
+            "help_url": "https://support.google.com/chrome/?p=plugin_real",
+            "lang": "en-US",
+            "mime_types": [ "audio/vnd.rn-realaudio", "video/vnd.rn-realvideo", "audio/x-pn-realaudio-plugin", "audio/x-pn-realaudio" ],
+            "name": "RealPlayer",
+            "url": "http://forms.real.com/real/realone/download.html?type=rpsp_us",
+            "versions": [ {
+               "reference": "http://service.real.com/realplayer/security/02062012_player/en/",
+               "status": "requires_authorization",
+               "version": "15.0.2.71"
+            } ]
+         },
+         "silverlight": {
+            "group_name_matcher": "*Silverlight*",
+            "lang": "en-US",
+            "mime_types": [ "application/x-silverlight", "application/x-silverlight-2" ],
+            "name": "Silverlight",
+            "url": "http://go.microsoft.com/fwlink/?LinkID=149156",
+            "versions": [ {
+               "reference": "https://support.microsoft.com/kb/3056819",
+               "status": "requires_authorization",
+               "version": "5.1.40416.0"
+            } ]
+         },
+         "windows-media-player": {
+            "displayurl": true,
+            "group_name_matcher": "*Windows Media Player*",
+            "help_url": "https://support.google.com/chrome/?p=plugin_wmp",
+            "lang": "en-US",
+            "mime_types": [  ],
+            "name": "Windows Media Player",
+            "url": "http://www.interoperabilitybridges.com/wmp-extension-for-chrome"
+         },
+         "x-version": 40
+      },
+      "resource_cache_update": "1543935061.616264"
+   },
+   "policy": {
+      "last_statistics_update": "13188901983688944"
+   },
+   "profile": {
+      "info_cache": {
+         "Profile 1": {
+            "active_time": 1544448450.506162,
+            "avatar_icon": "chrome://theme/IDR_PROFILE_AVATAR_1",
+            "background_apps": false,
+            "gaia_id": "",
+            "gaia_picture_file_name": "",
+            "is_ephemeral": false,
+            "is_omitted_from_profile_list": false,
+            "is_using_default_avatar": true,
+            "is_using_default_name": false,
+            "managed_user_id": "",
+            "name": "Repsol",
+            "shortcut_name": "",
+            "user_name": ""
+         }
+      },
+      "last_active_profiles": [ "Profile 1" ],
+      "last_used": "Profile 1",
+      "profiles_created": 2
+   },
+   "profiles": {
+      "profiles_deleted": [  ]
+   },
+   "rappor": {
+      "cohort_seed": 479,
+      "last_daily_sample": "13188901998689785",
+      "secret": "F33tE0Oc0PUlb7M6dGTXJlAR9JqdcHfVE8fKJOyV3c10hPPZ2Phpj3GO2r4jHB/u"
+   },
+   "session_id_generator_last_value": "1150520951",
+   "shutdown": {
+      "num_processes": 0,
+      "num_processes_slow": 0,
+      "type": 0
+   },
+   "software_reporter": {
+      "last_time_triggered": "13188916433641719"
+   },
+   "startup_metric": {
+      "last_startup_timestamp": "13188922433087618",
+      "last_startup_version": "71.0.3578.80",
+      "same_version_startup_count": 52
+   },
+   "subresource_filter": {
+      "ruleset_version": {
+         "checksum": 1167208528,
+         "content": "9.1",
+         "format": 23
+      }
+   },
+   "supervised_users": {
+      "whitelists": {
+
+      }
+   },
+   "tab_stats": {
+      "last_daily_sample": "13188901983864113",
+      "max_tabs_per_window": 4,
+      "total_tab_count_max": 5,
+      "window_count_max": 3
+   },
+   "ukm": {
+      "client_id": "6831990747216727743",
+      "persisted_logs": [  ],
+      "session_id": 7
+   },
+   "uninstall_metrics": {
+      "installation_date2": "1530085120",
+      "launch_count": "283",
+      "page_load_count": "12379"
+   },
+   "updateclientdata": {
+      "apps": {
+         "aemomkdncapdnfajjbbcbdebjljbpmpj": {
+            "cohort": "",
+            "cohortname": "",
+            "dlrc": 4361,
+            "pf": "6e07e68a-9f32-4aab-9325-7baf7c2d5a02"
+         },
+         "copjbmjbojbakpaedmpkhmiplmmehfck": {
+            "cohort": "1:p1x:",
+            "cohortname": "Auto",
+            "dlrc": 4361,
+            "pf": "dbf6bf8d-7439-4451-be09-117e145b5b06"
+         },
+         "ehgidpndbllacpjalkiimkbadgjfnnmc": {
+            "cohort": "1:ofl:",
+            "cohortname": "stable64",
+            "dlrc": 4305,
+            "pf": "8c28e51f-95dd-4445-a36c-0b9c99470e91"
+         },
+         "gcmjkmgdlgnkkcocmoeiminaijmmjnii": {
+            "cohort": "1:bm1:",
+            "cohortname": "M54ToM99",
+            "dlrc": 4361,
+            "pf": "6b09fe5b-13a8-4a05-9af8-c98514a6b6e4"
+         },
+         "giekcmmlnklenlaomppkphknjmnnpneh": {
+            "cohort": "1:j5l:",
+            "cohortname": "Auto",
+            "dlrc": 4361,
+            "pf": "dd793e25-cb24-4e57-9690-4ffddbc0137a"
+         },
+         "gkmgaooipdjhmangpemjhigmamcehddo": {
+            "cohort": "1:lsl:",
+            "cohortname": "ESET Stable",
+            "dlrc": 4361,
+            "pf": "fef813c4-d9c2-4064-bc8f-39cfaaf5f2cd"
+         },
+         "hfnkpimlhhgieaddgfemjhofmfblmnib": {
+            "cohort": "1:jcl:",
+            "cohortname": "Auto",
+            "dlrc": 4361,
+            "pf": "344179b3-89f1-4723-ac3d-c08583c09a7d"
+         },
+         "hnimpnehoodheedghdeeijklkeaacbdc": {
+            "cohort": "",
+            "cohortname": "",
+            "dlrc": 4361,
+            "pf": "9e0cea37-8ecb-47a9-bbd2-56930a32e76a"
+         },
+         "khaoiebndkojlmppeemjhbpbandiljpe": {
+            "cohort": "1:cux:",
+            "cohortname": "Auto",
+            "dlrc": 4361,
+            "pf": "d50717b0-2874-4cd8-8915-5d8f8beac251"
+         },
+         "llkgjffcdpffmhiakmfcdcblohccpfmo": {
+            "dlrc": 4361,
+            "pf": "21b8300c-5aa8-425e-9b42-5430a158034f"
+         },
+         "mimojjlkmoijpicakmndhoigimigcmbb": {
+            "cohort": "1:d0j:",
+            "cohortname": "Chrome [M50... M99]",
+            "dlrc": 4361,
+            "pf": "9b2bf180-ac5b-4148-bab0-2b39cdecc560"
+         },
+         "npdjjkjlcidkjlamlmmdelcjbcpdjocm": {
+            "cohort": "",
+            "cohortname": "",
+            "dlrc": 4361,
+            "pf": "346e2893-a57c-4fc6-aedc-f3398158dc6a"
+         },
+         "oimompecagnajdejgnnjijobebaeigek": {
+            "cohort": "",
+            "cohortname": "",
+            "dlrc": 4361,
+            "pf": "deb3dbfe-0522-4719-b358-3a7ab611f865"
+         },
+         "ojjgnpkioondelmggbekfhllhdaimnho": {
+            "cohort": "1:0:",
+            "cohortname": "Auto",
+            "dlrc": 4361,
+            "pf": "598bfea8-89e0-4fc5-a003-8361678fd1f1"
+         }
+      }
+   },
+   "user_experience_metrics": {
+      "client_id2": "2f6d5368-1e7a-4f19-b285-5659cdf95749",
+      "client_id_timestamp": "1530085120",
+      "default_opt_in": 2,
+      "last_seen": {
+         "SetupMetrics": "13188617101064361"
+      },
+      "low_entropy_source2": 385,
+      "machine_id": 11736291,
+      "session_id": 282,
+      "stability": {
+         "breakpad_registration_fail": 0,
+         "breakpad_registration_ok": 0,
+         "browser_last_live_timestamp": "13188922433278517",
+         "child_process_crash_count": 0,
+         "crash_count": 4,
+         "debugger_not_present": 52,
+         "debugger_present": 0,
+         "deferred_count": 0,
+         "discard_count": 8,
+         "execution_phase": 500,
+         "exited_cleanly": false,
+         "extension_renderer_crash_count": 0,
+         "extension_renderer_failed_launch_count": 0,
+         "extension_renderer_launch_count": 59,
+         "gpu_crash_count": 0,
+         "incomplete_session_end_count": 0,
+         "launch_count": 52,
+         "page_load_count": 546,
+         "plugin_stats2": [  ],
+         "renderer_crash_count": 0,
+         "renderer_failed_launch_count": 0,
+         "renderer_hang_count": 0,
+         "renderer_launch_count": 403,
+         "session_end_completed": true,
+         "stats_buildtime": "1543554000",
+         "stats_version": "71.0.3578.80-64",
+         "system_crash_count": 0,
+         "version_mismatch_count": 0
+      }
+   },
+   "variations_compressed_seed": "safe_seed_content",
+   "variations_country": "es",
+   "variations_crash_streak": 0,
+   "variations_failed_to_fetch_seed_streak": 0,
+   "variations_last_fetch_time": "13188917683960073",
+   "variations_permanent_consistency_country": [ "71.0.3578.80", "es" ],
+   "variations_safe_compressed_seed": "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",
+   "variations_safe_seed_date": "13188916710000000",
+   "variations_safe_seed_fetch_time": "13188916710946810",
+   "variations_safe_seed_locale": "en-US",
+   "variations_safe_seed_permanent_consistency_country": "es",
+   "variations_safe_seed_session_consistency_country": "es",
+   "variations_safe_seed_signature": "MEUCIHZ6fGdaKA3tL+B5kQaIo/hKQu/YdOwNjSvY356O0BmJAiEA8fK5QBLZmm9wvdc49NaJGHVxQDLUUaRNOmNq7qsg8dE=",
+   "variations_seed_date": "13188917684000000",
+   "variations_seed_signature": "MEUCIHZ6fGdaKA3tL+B5kQaIo/hKQu/YdOwNjSvY356O0BmJAiEA8fK5QBLZmm9wvdc49NaJGHVxQDLUUaRNOmNq7qsg8dE=",
+   "was": {
+      "restarted": false
+   }
+}
+[1544448887.369][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
+[1544448887.369][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-extension="C:\Users\NDiaz\AppData\Local\Temp\scoped_dir20112_10920\internal" --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\NDiaz\AppData\Local\Google\Chrome\User Data"
+[1544448887.757][INFO]: [48104509defd970e2a213b44a34e8007] RESPONSE InitSession ERROR unknown error: Chrome failed to start: crashed
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files (x86)\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+[1544448887.757][DEBUG]: Log type 'driver' lost 0 entries on destruction
+[1544448887.757][DEBUG]: Log type 'performance' lost 0 entries on destruction
+[1544448887.757][DEBUG]: Log type 'browser' lost 0 entries on destruction
